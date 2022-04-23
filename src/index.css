@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav .nav-wrapper {
+  padding: 0 3rem;
+}
+
+.todo-form {
+  margin-top: 3rem;
+}
+
+ul .todo-item {
+  margin-bottom: 1rem;
+}
+
+ul .todo-item.completed span {
+  text-decoration: line-through;
+}
+ul .todo-item label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #e7ffe6;
+  border: 1px solid rgb(220, 220, 220);
+  cursor: pointer;
+}
+
+ul .todo-item label:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transform: scale(1.001);
+}
+
+ul .todo-item i {
+  z-index: 2;
+}
